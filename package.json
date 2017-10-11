@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hugolefrancois/cecile/issues"
   },
-  "homepage": "https://github.com/hugolefrancois/cecile#readme"
+  "homepage": "https://github.com/hugolefrancois/cecile#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "slackbots": "^1.1.0"
+  }
 }
