@@ -1,0 +1,19 @@
+{
+  "name": "cecile-bot",
+  "version": "1.0.0",
+  "description": "Cecile Slack Bot",
+  "main": "lib/cecilebot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugolefrancois/cecile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugolefrancois/cecile/issues"
+  },
+  "homepage": "https://github.com/hugolefrancois/cecile#readme"
+}
