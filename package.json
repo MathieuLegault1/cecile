@@ -2,26 +2,22 @@
   "name": "cecile-bot",
   "version": "1.0.0",
   "description": "Cecile Slack Bot",
-  "main": "lib/cecilebot.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hugolefrancois/cecile.git"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hugolefrancois/cecile/issues"
-  },
-  "homepage": "https://github.com/hugolefrancois/cecile#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
+    "express": "^4.16.2",
     "firebase-admin": "^5.4.2",
     "lodash": "^4.17.4",
     "moment": "^2.19.1",
     "request": "^2.83.0",
     "slackbots": "^1.1.0"
+  },
+  "engines": {
+    "node": "7.7.4"
   }
 }
